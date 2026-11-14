@@ -47,6 +47,14 @@ Use rice score to prioritize together with the user the next tasks.
 
 Use a cycle of planning, scoring, prioritizing, developing, testing (request manual test from user, also do it yourself if possible), release.  
 
+Change this section after the setup.
+
+# Readme  
+
+The readme is supposed to be small, direct, describe what the project is, why would you want to use it and then point to the user docs.  
+A link to and downloadable should be available (if applicable).  
+The last section on the readme is about and says who created the project and maintain it (person and company)
+
 # Audience 
 
 ## Dev or Client or Designer (Change this title)
