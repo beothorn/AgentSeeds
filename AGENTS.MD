@@ -37,6 +37,14 @@ If the user is not interested on that, just skip it and remove the section from 
 
 After all this, delete these setup instructions section from the Agents.md.  
 
+# Planing and managing iteration 
+
+Make a kanban folder with backlog, todo doing, done, deployed on (version and release notes).  
+
+Use rice score to prioritize together with the user the next tasks.  
+
+Use a cycle of planning, scoring, prioritizing, developing, testing (request manual test from user, also do it yourself if possible), release.  
+
 # Audience 
 
 ## Dev or Client or Designer (Change this title)
