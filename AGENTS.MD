@@ -1,5 +1,7 @@
 # Setup 
 
+On this setup you may need to research things. Please put them in the appropriate markdown files so research does not need to be repeated and behavior is deterministic, as it is based on static content. 
+
 First ask the user what is the project. Find the user level of knowledge about software development and the project subject.  
 This will be used to fill the audience section.  
 
