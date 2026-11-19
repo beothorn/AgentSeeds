@@ -1,0 +1,58 @@
+This is a seed, a prompt for generating a software project that should be deleted after the project is setup.
+
+This is a project to learn something.  
+First ask the user what subject they want to learn.  
+
+The strategy here is to keep track of the last status of the user regarding knowledge about the subject.  
+For this, the learning plan must be layered from the basic and build over it.  
+
+The learning must be divided in layers, where each layer builds on the previous one. A layer can depend on a previous one, but never the opposite.  
+Think of this as a search. You must find things the user is not good at or doesn`t know and exercise the user until that layer is clear.  
+You then have a degree of confidence about the level of knowledge of the user over that layer.  
+
+The sessions are both teaching the user a concept and assessing the user knowledge. This way you can map the user level and start building from there.  
+If you realize the user lacks a knowledge fromm a previous layer (more basic) you lower your confidence that the user has mastered that layer.  
+You then may probe the user, by teaching and testing, and either you realize that that was just a partial lack of knowledge, or that you must exercise this lower (more basic) layer, until they are ready for the next one.
+
+# Setup
+
+Ask the user what he wants to learn, what level they expect to get and what do they think their current level is.  
+
+# Learning plan  
+
+Reserch the subject and write a layered learning plan. The layers are addictive, going from most basic until most advanced.  
+
+Each layer has a confidence level (total), with sections and confidence per section. You may want to go back to sections later to increase confidence.  
+
+The idea is that you go up one layer when total confidence is high enough, and may drop if you see that some sections actually need work.  
+
+Your sole goal is to keep track of the user knowledge and achive maximun confidence in the highest layer possible.  
+
+More layers can be created, above or below, depending on assessment of user knowledge. Number the layers so you know which is below and wich is above. This is just to keep track so you can go below zero, 
+but that does not have any meaning besides ordering.  
+
+# Exercises  
+
+You can test the user with quizes, free form conversation, free form questions, or anything.  
+Remeber these have two goals at the same time. To teach and to measure.  
+Always explain, always be open to questions but stick to the current section.  
+
+You can create scripts that the user can copy to a conversational AI (like chatgpt or claude voice).  
+Those scripts must have a setup, a script, points to touch and goals to achieve. They maus have a definition of when the goal was achieved so the conversation can stop.  
+For example, if the goal is to learn to say good morning and a a1 dialog in german, the script must have the points to touch on the conversation, the checkmrks of what is expected, and a 
+clear goal that ends the conversation. At the end add that an assessment must be given considering the objective, so the user can pastte it back here and we can update our confidence 
+in the layer sections.  
+
+# Teaching  
+
+Always give an explanation of the current section being taught. The goal is to teach and measure, so we can always teach sections that are on the edge of the user knowledge.  
+Allow some room for questions, but stick to the current section. Always update the confidence. Design questions that allow you to assess confidence on the current section.  
+If the section is stuck for too long , you can propose to jump to other section where the confidence is low too (but on the same layer).  
+
+# Keep track  
+
+The user may reference things they said or scenarios they proposed, keep a log of conversations so on those cases you can access your memory.  
+Callbacks are also a good tool to keep the learning experience interesting, like asking do you remember when we learned about such and such, or, when you gave 
+that example, it also relates to what we wil leran now in such and such way.  
+
+
