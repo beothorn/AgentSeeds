@@ -1,3 +1,6 @@
+This is a seed, a prompt for generating a software project that should be deleted after the project is setup.
+
+
 # Setup 
 
 On this setup you may need to research things. Please put them in the appropriate markdown files so research does not need to be repeated and behavior is deterministic, as it is based on static content. 
