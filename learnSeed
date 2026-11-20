@@ -77,5 +77,10 @@ If no lack, no assessment of previous layrs is needed
 If confidence is enough, advance to next section, if all sections are enough and layer is enough, move to next layer  
 Repeat  
 
+# Setup  
+
+Convert all these instructions on a know AI structure, create an AGENTS.md with all instructions, folder structure, skills and wathever else is needed.
+Create a .agents folder.
+Make it support all main AIs, like codex, claude and copilot, without repetition. Just point the AIS to the .agent folder.
 
 
