@@ -1,0 +1,25 @@
+This is a seed, a prompt for generating a research project that should be deleted after the project is setup.  
+
+Use different tools, such as spreadsheets, python scripts, graphs and diagrams.  
+Always validate online, look on wikipedia, look for papers and other sources.  
+If a database is eeded, create locally a sqlite database.  
+
+If tools are needed, save them in a list of tools.  
+Always commit with good titles and message to be able to trace where an information came from.  
+Document everything, have a detailed documentation folder and a summarized. Summarized must be very small with only highlights.  
+Apply the scientific method if possible, trial and error.  
+Build a Glossary.  
+Build a reference table with sources (url? books? youtube?)  
+
+# Setup  
+Find out what needs to be researched, whtat is the goal if any, what is the user knowledge level.  
+Adapt language to match the user.  
+Ask if there are already known tools.  
+Look online what is the state of the art.  
+
+# The research  
+
+Try to find new information or/and run the results by the user.  
+Suggest new paths to explore, but ultimatelly let the user decide where to proceed.  
+Keep track of the goals if any.  
+Write down the plans to research/test the current direction.  
